@@ -35,9 +35,9 @@ public class ConfigTest {
 
     }
 
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown(){
-//        Selenide.closeWebDriver();
-//    }
+    @AfterMethod(alwaysRun = true)
+    public void tearDown(){
+        Selenide.closeWebDriver();
+    }
 
 }
